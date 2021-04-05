@@ -110,8 +110,8 @@
   margin: 0 0 20px;
 }
 
-input#new-task {
-    width: 318px;
+.input-text {
+  width: 318px;
 }
 
 /* Task list */
