@@ -72,6 +72,8 @@ var addTask=function(){
 
   taskInput.value="";
 
+  listItem.classList.add("item");
+
 }
 
 //Edit an existing task.
