@@ -50,11 +50,13 @@ ul {
   padding: 0px;
 }
 
-li, .title {
+li,
+.title {
   list-style: none;
 }
 
-input, .btn {
+input,
+.btn {
   outline: none;
 }
 
