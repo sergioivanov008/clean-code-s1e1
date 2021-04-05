@@ -13,11 +13,11 @@
   text-align: right;
 }
 
-.header .header-img {
+.header .header__img {
   width: 100%;
 }
 
-.header .header-link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
