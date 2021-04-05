@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header .header-img {
   width: 100%;
 }
 .header .header-link {
@@ -39,13 +39,13 @@ ul {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+li, .title {
   list-style:none;
 }
-input,button{
+input, .btn {
   outline:none;
 }
-button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -54,12 +54,11 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -119,12 +118,12 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
-button.delete-button img {
+.btn.delete-button .remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete-button img:hover {
+.btn.delete-button .remove-img:hover {
   transform: rotateZ(0);
 }
 
