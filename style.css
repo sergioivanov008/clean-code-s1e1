@@ -50,7 +50,7 @@
   padding: 0px;
 }
 
-li,
+.item,
 .title {
   list-style: none;
 }
