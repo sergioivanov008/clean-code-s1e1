@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.add-task__wrapper {
   display: flex;
 }
 
@@ -105,7 +105,7 @@
 
 /* New Task */
 
-.new-task {
+.add-task__new-task {
   display: block;
   margin: 0 0 20px;
 }
