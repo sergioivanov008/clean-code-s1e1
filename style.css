@@ -130,7 +130,7 @@
   vertical-align: middle;
 }
 
-.item > .checkbox {
+.item > .item__checkbox {
   margin: 0 10px;
 }
 
