@@ -171,11 +171,11 @@
   display: none;
 }
 
-.list .item.edit-mode .item__input {
+.list .item.item--edit-mode .item__input {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.edit-mode .item__label {
+.list .item.item--edit-mode .item__label {
   display: none;
 }
