@@ -37,8 +37,7 @@
 
 .add-task__input,
 .item__label,
-.item__input,
-.task {
+.item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
