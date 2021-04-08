@@ -35,7 +35,9 @@
   margin: 0 auto 0;
 }
 
-.task {
+.add-task__input,
+.item__label,
+.item__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -171,11 +173,11 @@
   display: none;
 }
 
-.list .item.edit-mode .item__input {
+.list .item.item--edit-mode .item__input {
   display: inline-block;
   width: 224px;
 }
 
-.list .item.edit-mode .item__label {
+.list .item.item--edit-mode .item__label {
   display: none;
 }
